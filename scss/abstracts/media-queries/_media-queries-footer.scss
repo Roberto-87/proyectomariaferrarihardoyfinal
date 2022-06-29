@@ -1,0 +1,116 @@
+/*- media queries del footer para todas las secciones y medidas, excepto las indicadas más abajo que debieron ser reajustadas- */
+
+.container-logos, .container-row, .container-footer {
+  @media (min-width: 280px) {
+   @include widhtmargin (100%, 25%)
+}
+
+@media (min-width: 375px) {
+    @include widhtmargin (99%, 15%)
+ }
+ @media (min-width: 390px) {
+    @include widhtmargin (99%, 15%)
+ }
+
+ @media (min-width: 414px) {
+    @include widhtmargin (99%, 10%)
+ }
+
+ @media (min-width: 540px) {
+    @include widhtmargin (99%, 2%)
+ }
+
+ @media (min-width: 768px) {
+    @include widhtmargin (99%, 2%)
+ }
+
+ @media (min-width: 820px) {
+    @include widhtmargin (98%, 8%)
+ }
+
+ @media (min-width: 1024px) {
+    @include widhtmargin (99%, 0.2%)
+ }
+}
+
+
+/*-------------------------------- fin mediaqueries footer todas las secciones--------------------------------- */
+
+/*----------------------------- reajuste media queries sección obras 2018------------------------------------- */
+
+
+.container-footer-2018 {
+    @media (min-width: 280px) {
+        @include widhtmargin (99%, 0)
+     }
+ 
+     @media (min-width: 768px) {
+        @include widhtmargin (98%, 8%)
+     }
+     @media (min-width: 912px) {
+        @include widhtmargin (98%, 2%)
+     }
+     @media (min-width: 1024px) {
+        @include widhtmargin (98%, 0)
+     }
+
+}
+/*----------------------------- reajuste media queries fin sección obras 2018----------------------------------- */
+
+
+/*----------------------------- reajuste media queries sección obras 2019------------------------------------- */
+
+.container-footer-2019 {
+    @media (min-width: 280px) {
+        @include widhtmargin (99%, 15%)
+     }
+     @media (min-width: 1024px) {
+        @include widhtmargin (99%, 0)
+     }
+     @media (min-width: 1280px) {
+        @include widhtmargin (99%, -21px)
+     }
+    }
+/*----------------------------- reajuste media queries fin sección obras 2019------------------------------------- */    
+
+/*----------------------------- reajuste media queries sección biografía------------------------------------- */    
+
+.container-footer-biografia{
+    @media (min-width: 280px) {
+        @include widhtmargin (100%, 5%);
+     }
+     @media (min-width: 412px) {
+        @include widhtmargin (100%, 4%);
+}
+     @media (min-width: 820px) {
+        @include widhtmargin (100%, 6%);
+}
+     @media (min-width: 1200px) {
+       @include widhtmargin (100%, 0!important);
+}
+}
+
+/*--------------------------fin reajuste media queries sección biografía------------------------------------- */ 
+
+/*----------------------------- reajuste media queries sección novedades------------------------------------- */  
+.container-footer-novedades {
+   @media (min-width: 280px) {
+      @include widhtmargin (100%, 10%);
+   }
+   @media (min-width: 912px) {
+      @include widhtmargin (100%, -10px);
+   }
+   @media (min-width: 912px) {
+      @include widhtmargin (100%, 0);
+   }
+}
+/*----------------------------- fin reajuste media queries sección novedades------------------------------------- */  
+
+.container-footer-tienda{
+@media (min-width: 280px) {
+   @include widhtmargin (100%, 10%);
+}
+@media (min-width: 768px) {
+   @include widhtmargin (100%, 5%);
+}
+}

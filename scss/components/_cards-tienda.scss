@@ -1,0 +1,19 @@
+@import "../base/listas";
+
+.tienda-card {
+    transition: all 0.3s;
+    background-color: map-get($map: $colores, $key: "negro2");
+    width: 60%;
+    border-radius: 25px;
+    font-family:map-get($map: $tipografias, $key: "tipoBrand") ;
+
+    &:hover{    
+        transform: scale(1.04); 
+        background-color:map-get($map: $colores, $key: "blanco2");
+               
+    }
+
+    .card-img-top {
+        margin-top: 10px;
+    }
+}

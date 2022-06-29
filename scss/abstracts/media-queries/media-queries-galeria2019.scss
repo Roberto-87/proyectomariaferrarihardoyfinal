@@ -1,0 +1,51 @@
+
+/*---- Responsive imagenes galeria 2019-2020 ---- */
+
+.img-2019 {
+  @media (min-width:280px){
+     width: 100%;
+     margin-top: 10px;
+   }
+  @include media2 ();
+  @include media3 ();
+  @include media4 ();
+  @include media5 ();
+  @include media6 ();
+
+  @media (min-width:540px ) {
+    width: 80% !important;
+  }
+  @include media8 ();
+  @include media9 ();
+  @include media10 ();
+  @include media11 ();
+  @include media12 ();
+  @media (min-width:768px ) {
+    width: 90% !important;
+  }
+  @media (min-width:820px ) {
+    width: 100% !important;
+  }
+  
+  @include media14 ();
+  @media (min-width:912px ) {
+    width: 90% !important;
+  }
+  
+  @include media16 ();
+  @include media17 ();
+  @include media18 ();
+  @include media19 ();
+  @include media20 ();
+  @media (min-width:1000px ) {
+    width: 55% !important;
+  }
+  @media (min-width:1024px ) {
+    width: 45% !important;
+  }
+  @media (min-width:1280px ) {
+    width: 40% !important;
+  }
+  
+}           
+   

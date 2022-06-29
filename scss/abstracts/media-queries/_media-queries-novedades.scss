@@ -1,0 +1,65 @@
+@import "../../base/mixins";
+
+    .nav-item-novedades {
+    @media (min-width:0px){
+    display: none;
+        }
+    @media (min-width:370px){
+    display: block;
+            }
+    }
+    .container-novedades {
+        @media (min-width:280px){  
+            margin-bottom: 12%;
+    }
+    .container-novedades {
+        @media (min-width:1024px){  
+            margin-bottom: 2%;
+    }
+}
+    }
+    
+    #nav-botones-novedades {
+    @media (min-width:370px){
+    @include sticky-top (sticky, 12%)
+    }
+    @media (min-width:390px){
+        @include sticky-top (sticky, 10%)
+    }
+    @media (min-width:400px){
+        @include sticky-top (sticky, 12%)
+    }
+    @media (min-width:500px){
+        @include sticky-top (sticky, 14%)
+    }
+    @media (min-width:540px){
+        @include sticky-top (sticky, 15%)
+    }
+    @media (min-width:600px){
+        @include sticky-top (sticky, 18%)
+    }
+    @media (min-width:540px){
+        @include sticky-top (sticky, 14%)
+    }
+    @media (min-width:620px){
+        @include sticky-top (sticky, 16%)
+    }
+    @media (min-width:680px){
+        @include sticky-top (sticky, 18%)
+    }
+    @media (min-width:768px){
+        @include sticky-top (sticky, 8.5%)
+       }
+       @media (min-width:774px){
+        @include sticky-top (sticky, 12%)
+       }
+     @media (min-width:912px){
+     @include sticky-top (sticky, 8%)
+    }
+    @media (min-width:915px){
+    @include sticky-top (sticky, 15%)
+    }
+    @media (min-width:1200px){
+        @include sticky-top (sticky, 10%)
+        }
+} 

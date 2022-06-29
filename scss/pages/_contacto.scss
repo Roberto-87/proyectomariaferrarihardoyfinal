@@ -1,0 +1,9 @@
+@import "../base/extends";
+@import "../base/listas";
+
+.body-contacto {
+    background-image: url("../imagenes/imagenes-taller/imagenTaller2.jpg"), url("../imagenes/imagenes-taller/imagenTaller1.jpg");;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 45%;
+    } 

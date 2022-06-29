@@ -1,0 +1,45 @@
+
+/*---- Responsive imagenes galeria 2018---- */
+
+.img-2018 {
+            @include media1 ();
+            @include media2 ();
+            @include media3 ();
+            @include media4 ();
+            @include media5 ();
+            @include media6 ();
+            @media (min-width:540px ) {
+              width: 75% !important;
+            }          
+
+            @include media8 ();
+            @include media9 ();
+            @include media10 ();
+            @include media11 ();
+            @include media12 ();
+            @include media13 ();
+            @include media14 ();
+            @media (min-width:912px ) {
+              width: 90% !important;
+            }
+
+            @include media16 ();
+            @include media17 ();
+            @include media18 ();
+            @include media19 ();
+            @include media20 ();
+            @media (min-width:768px ) {
+              width: 75% !important;
+            }
+            @media (min-width:1000px ) {
+              width: 35% !important;
+            }
+            @media (min-width:1280px ) {
+              width: 30% !important;
+            }
+            
+          }
+     
+
+                
+                  

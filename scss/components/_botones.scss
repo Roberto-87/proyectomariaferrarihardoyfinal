@@ -1,0 +1,81 @@
+@import "../base/extends";
+@import "../base/listas";
+
+/* formulario de contacto- botón enviar */
+
+.boton-enviar {
+    border: solid 1px grey;
+    border-radius: 5px;
+    background-color: map-get($map:$colores, $key:"gris2");
+    height: 60%;
+    @extend %flexcenterxy;
+    margin-top: 8px;
+    padding: 1px;
+     &:hover {
+       background-color: map-get($map:$colores, $key:"gris0");
+      //  border:2px solid map-get($map:$colores, $key:"gris2");
+       color: map-get($map:$colores, $key:"blanco0");
+    } &:active {
+       background-color:map-get($map: $colores, $key: "blanco0");
+       border:2px solid rgb(255, 255, 255);
+       color:map-get($map:$colores, $key:"gris0");
+} 
+}
+
+/* fin formulario de contacto- botón enviar */
+
+
+/* sección novedades: botones de navegación de títulos el resto de las propiedades están dadas a nivel de media queries */
+
+.caja-botones-nav {
+  background: transparent !important;
+  // padding-top: 20px;
+  
+} 
+.boton-novedades{
+  transition: all 1.6s;
+  font-family: map-get($map: $tipografias, $key: "tipoLink1")
+    }    
+    .boton-novedades:active {
+      background-color: map-get($map: $colores, $key:"blanco0" );
+      color: map-get($map: $colores, $key:"negro0" )!important;
+    }
+    .boton-novedades:hover {
+      color: map-get($map: $colores, $key:"negro0" ) !important;
+    }
+    #nav-botones-novedades {
+      border-radius: 5px;
+      display: flex;
+      justify-content: center !important;
+      
+     
+    }
+    .nav-item-novedades{
+      background-color:map-get($map: $colores, $key:"gris1" ) !important; 
+      border-radius: 20px;
+      color: map-get($map: $colores, $key:"blanco0") !important;
+      z-index: 2 !important;
+
+    }
+/* sección novedades: botones de navegación de títulos*/
+
+/* sección tienda: botón comprar*/
+
+    .btn-comprar {
+      transition: all 0.1s;
+      background-color: map-get($map: $colores, $key:"rojo1")!important;
+      border-radius: 20px;
+      color:map-get($map: $colores, $key:"blanco3") ;
+      
+      &:active {
+      background-color: map-get($map: $colores, $key:"blanco1")  !important;
+      transform: scale(1.1);
+      border: none !important;
+      }
+      &:hover{
+      background-color: map-get($map: $colores, $key:"gris4") ;
+      color: map-get($map: $colores, $key:"negro1") 
+      }
+    } 
+
+/* fin sección tienda: botón comprar*/

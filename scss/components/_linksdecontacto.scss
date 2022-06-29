@@ -1,0 +1,18 @@
+@import "../base/extends";
+
+/* logos instagram y whatsapp sección contacto */
+
+.container-logos {
+    width: 100%;
+    @extend %flexend;  
+}
+    .contenedor-wp-ig{
+        width: 100%;
+        display: flex !important;
+        justify-content: space-around !important;
+   
+    }
+      
+        
+    
+/* fin logos instagram y whatsapp sección contacto */    

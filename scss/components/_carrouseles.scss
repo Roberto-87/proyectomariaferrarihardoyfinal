@@ -1,0 +1,41 @@
+@import "../base/extends";
+@import "../base/variables";
+@import "../base/mixins";
+@import "../base/listas";
+
+/* estilos carousel 2018 y carousel 2019-2020 */
+
+.body-2018, .body-2019, .body-galeria {
+  background: $bc-gradiant4;
+}
+.main-galeria{
+  @extend %flexcenterxy;
+ }
+  .carrousel-2020 {
+  @extend %sticky40;
+   width: 90%;
+  } 
+
+/* estilos carousel 2022 */
+
+
+       .carrousel-index {
+         @include displayposition(grid,1.5fr,1.5fr,none,none ,none);
+         @include widhtmargin(100%,none);
+         margin-top: 15px !important;
+        }
+          .p-epigrafe {
+          @include displayposition(flex !important,none ,none ,none ,flex !important ,flex-end !important);
+          margin-bottom:30px;}
+          .carousel-fade .carousel-item-next.carousel-item-start, .carousel-fade .carousel-item-prev.carousel-item-end, .carousel-fade .carousel-item.active {
+            z-index: -6 !important;
+          }
+         
+    
+
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,261 @@
+@import "../base/variables";
+
+@mixin displayposition ($display, $gridcolumn, $gridrow, $position, $alineax, $alineay) {
+    display: $display;
+    grid-template-columns: $gridcolumn;
+    grid-template-rows: $gridrow;
+    position: $position;
+    justify-content: $alineax;
+    align-items: $alineay;
+}
+
+@mixin widhtmargin ($width, $mt){
+    width: $width;
+    margin-top: $mt;
+
+}
+
+@mixin paddingyradius ($pad, $rad){
+   padding: $pad;
+   border-radius: $rad;
+
+}
+
+@mixin widht-heigh-mt ($width,$height, $mt){
+   width: $width;
+   height: $height;
+   margin-top: $mt;
+
+}
+
+@mixin bottom-left ($bottom,$left){
+   margin-bottom: $bottom;
+   margin-left: $left;
+
+}
+
+@mixin sticky-top ($position,$top){
+   position: $position;
+   top: $top;
+
+}
+
+
+
+/*------------------------------------------- mixin media queries galeria: ---------------------------------------------*/
+
+
+
+@mixin media1 (){
+   @media (min-width:($medidaminima + 80px)){
+    width: $width-responsive !important;
+    margin-top: 15px;
+
+   }
+}
+@mixin media2 (){
+    @media (min-width:($medidaminima + 50px)){
+     width: $width-responsive !important;
+
+    }
+ }
+
+ @mixin media3 (){
+    @media (min-width:($medidaminima + 100px)){
+     width: $width-responsive !important;
+     margin-top: 2px;
+     
+    }
+ }
+ 
+ @mixin media4 (){
+    @media (min-width:($medidaminima + 150px)){
+     width:$width-responsive !important;
+         
+    }   
+ }
+
+ @mixin media5 (){
+    @media (min-width:($medidaminima + 200px)){
+     width: $width-responsive !important;
+    
+     
+    }
+ }
+
+ @mixin media6 (){
+    @media (min-width:($medidaminima + 250px)){
+     width: $width-responsive !important;
+     
+    }
+ }
+
+ @mixin media7 (){
+    @media (min-width:($medidaminima + 300px)){
+     width: $width-responsive !important;
+     margin-top: 0;
+     
+    }
+ }
+
+
+
+ @mixin media8 (){
+    @media (min-width:($medidaminima + 350px)){
+     width: $width-responsive - 20% !important;
+     
+    }
+ }
+
+ @mixin media9 (){
+    @media (min-width:($medidaminima + 400px)){
+     width: $width-responsive - 30% !important;
+     
+    }
+ }
+
+ @mixin media10 (){
+    @media (min-width:($medidaminima + 450px)){
+     width: $width-responsive - 25% !important;
+     
+    }
+ }
+
+ @mixin media11 (){
+    @media (min-width:($medidaminima + 500px)){
+     width: $width-responsive -45% !important;
+     
+    }
+ }
+ 
+ @mixin media12 (){
+    @media (min-width:($medidaminima + 550px)){
+     width: $width-responsive - 40% !important;
+     margin-top: 4px;
+     
+    }
+ }
+
+ @mixin media13 (){
+    @media (min-width:($medidaminima + 600px)){
+     width: $width-responsive !important;
+     
+    }
+ }
+
+
+ @mixin media14 (){
+    @media (min-width:($medidaminima + 650px)){
+     width: $width-responsive  - 50% !important;
+     
+    }
+ }
+
+ @mixin media15 (){
+    @media (min-width:($medidaminima + 700px)){
+     width:$width-responsive -40% !important;
+     
+    }
+ }
+
+ @mixin media16 (){
+    @media (min-width:($medidaminima + 750px)){
+     width: $width-responsive - 50% !important;
+    }
+ }
+
+ @mixin media17 (){
+    @media (min-width:($medidaminima + 800px)){
+     width: $width-responsive - 50% !important;
+     
+    }
+ }
+
+ @mixin media18 (){
+    @media (min-width:($medidaminima + 850px)){
+     width: $width-responsive -45% !important;
+     
+    }
+ }
+
+ @mixin media19 (){
+    @media (min-width:($medidaminima + 900px)){
+     width: $width-responsive -60% !important;
+     
+    }
+ }
+ @mixin media20 (){
+    @media (min-width:($medidaminima + 950px)){
+     width: $width-responsive -50% !important;
+     
+    }
+ }
+
+ @mixin media21 (){
+    @media (min-width:($medidaminima + 1000px)){
+     width: $width-responsive - 40% !important;
+     position: st;
+      top: 10px;
+     
+    }
+ }
+
+
+ @mixin media23 (){
+    @media (min-width:($medidaminima + 1100px)){
+     width: $width-responsive !important;
+     
+    }
+ }
+ 
+ @mixin media24 (){
+    @media (min-width:($medidaminima + 620px)){
+     width: $width-responsive !important;
+     
+    }
+ }
+
+
+//  Medida Ipad:
+
+ @mixin media25 (){
+    @media (min-width:($medidaminima + 568px)){
+     width: $width-responsive !important;
+     
+    }
+ }
+
+ //  Medida Nest Hub y Nest Hub Max:
+
+ @mixin media26 (){
+    @media (min-width:($medidaminima + 824px)){
+     width: $width-responsive - 60% !important;
+     margin-top: 0px;
+     
+    }
+ } 
+
+ @mixin media27 (){
+    @media (min-width:($medidaminima + 1080px)){
+     width: $width-responsive - 5% !important;
+     
+    }
+ } 
+
+//  medida lg
+
+@mixin media28 (){
+    @media (min-width:($medidaminima + 1050px)){
+     width: 37%!important;
+     
+    }
+ } 
+
+
+
+/*-------------------------------------------fin mixin media queries galeria---------------------------------------------*/
+
+
+
+
+

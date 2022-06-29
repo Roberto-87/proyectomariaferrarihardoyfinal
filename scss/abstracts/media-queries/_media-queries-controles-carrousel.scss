@@ -1,0 +1,12 @@
+@import "../../base/variables";
+
+.btncarrousel {                  
+    @media (min-width:280px){
+       background-color: transparent;
+       border: none; 
+       @media (min-width:1000px){
+           background-color:$bc-header;
+           border: none; 
+        }
+    }
+}

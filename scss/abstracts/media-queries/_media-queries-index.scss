@@ -1,0 +1,65 @@
+@import "../../base/mixins";
+
+/*---- Responsive imagenes galeria 2022---- */
+
+.img {
+    @include media1 ();
+    @include media2 ();
+    @include media3 ();
+    @include media4 ();
+    @include media5 ();
+    @include media6 ();
+    @include media7 ();
+    @media (min-width:540px){
+      width: $width-responsive  !important;
+      
+     }
+    
+    @include media8 ();
+    @include media9 ();
+    @include media10 ();
+    @include media11 ();
+    @include media12 ();
+    @include media13 ();
+    @include media14 ();
+    @include media15 ();
+    @include media16 ();
+    @include media17 ();
+    @include media18 ();
+    @include media19 ();
+    @include media20 ();
+    @include media21 ();
+
+    @include media23 ();
+    @include media24 ();
+    @include media25 ();
+    @include media26 ();
+    @include media27 ();
+    @include media28 ();
+   
+      }  
+              .nav-item-gale {
+                             @media (min-width:820px){
+                             background-color: none !important;
+                             }
+                           }
+                          
+                           .container-img-carrousel {
+                            @media (min-width:360px){
+                               margin-top: 20px;
+                           }
+                            @media (min-width:1024px){
+                               margin-left: 32%;
+                               margin-top: 10px;
+                            }
+                            .container-img-carrousel {
+                              @media (min-width:1200px){
+                                 margin-left: 75% !important;
+                                
+                                }
+                                                        
+                          }
+                        }
+             
+         
+                                                 

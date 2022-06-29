@@ -1,0 +1,14 @@
+@import "../base/listas";
+   
+   .body-tienda {
+      //  background-color: map-get($map: $colores, $key:"rosa1");
+      background: $bc-gradiant3;
+        
+    }
+        .container-tienda {
+            gap: 1em;
+            color: map-get($map: $colores, $key:"gris3");
+            margin-top: 1em;
+        }
+
+

@@ -1,0 +1,13 @@
+@import "../base/extends";
+@import "../base/mixins";
+@import "../base/listas";
+@import "../base/variables";
+
+.body-biografia{
+  background: $bc-gradiant5;
+ } .section {
+    @include displayposition(grid,2.9fr,3fr,none,none ,none);
+    font-size: 0.8em;  
+     } .section__article {
+        margin-top: 2%;
+      }   

@@ -1,0 +1,30 @@
+
+@import "../base/extends";
+@import "../base/variables";
+@import "../base/listas";
+
+.body-novedades {
+   //background-color:lighten($bc-body,59%); 
+   background: $bc-gradiant4;
+    } 
+       .container-row {
+       @extend %flexend;     
+    }
+     .container-novedades {
+       position: sticky;
+       top: 0px;
+       width: 100%;
+       z-index: -1 ;
+    }
+      .container-novedades h4 {
+        color: map-get($map: $colores, $key:"gris2");        
+    }
+      .row {
+        margin-top:1em;
+    }
+ 
+
+
+
+
+

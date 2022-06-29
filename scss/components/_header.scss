@@ -1,0 +1,65 @@
+@import "../base/variables";
+@import "../base/listas";
+ 
+ .nav {
+      background: $bc-header-gradiant;
+      z-index: 1;
+      position: sticky !important;
+      top: 0px !important;
+      width: 100% !important;
+      height: 2em !important;
+    }   
+    .nav__div {
+      
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-around;
+      position: sticky;
+      
+      
+        } .nav__brand {
+          font-size: 1.7rem;
+          font-family: map-get($map: $tipografias, $key: "tipoLink3" );
+          color: map-get($map: $colores, $key: "gris8" );
+          
+          
+        }
+          .nav__a {
+          font-size: 0.8rem !important;
+          color:map-get($map: $colores, $key: "gris3");
+          font-family: map-get($map: $tipografias, $key: "tipoLink3" );
+                         
+           &:hover {
+           color: darken($general-font-color, 100%);
+           transform: scale(1.1);
+                                  
+            &:active {
+            background:($bc-header-gradiant);
+            border-radius:1.5em; 
+            transition: all 0.1s; 
+             } 
+            }
+            .nav__burger:active {
+            transform: rotate(600deg);
+            border: none;
+            transition: all 0.2s !important;
+                     
+      }    } .dropdown-menu{
+              background: $bc-gradiant6;
+            } 
+            .dropdown-item {
+              position: none !important;
+              font-family: map-get($map: $tipografias, $key: "tipoLink3" );
+              font-size: 0.7rem;
+              color:map-get($map: $colores, $key: "gris7" );
+
+          }
+        
+
+             
+
+   
+
+
+      
+

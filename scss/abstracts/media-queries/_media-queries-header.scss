@@ -1,0 +1,40 @@
+.nav {
+@media (min-width:280px){
+        position: sticky !important;
+        top: 0px !important;
+        padding-top: 8% !important;
+/*         padding-bottom: 10% !important; */
+         height: 50% !important; 
+    } 
+    @media (min-width:760px) {
+        padding-top: 5% !important; 
+        width: 100%;
+    }
+    @media (min-width:1000px) {
+        padding-top: 1% !important; 
+    }
+}
+       .nav__button {
+        border: none;
+
+        &:active { 
+
+        @media (min-width:280px){
+
+        transform: rotate(300deg);
+        border: none !important;
+        transition: all 0.2s !important;
+        border: none !important;
+        display: flex;
+        justify-content: flex-end;
+        }
+
+        @media (min-width:820px){
+        margin-right: 100% !important;
+    }   
+}     .nav__brand {
+       @media (min-width:820px){
+       margin-left: 1.5% !important;
+        } 
+}
+    }

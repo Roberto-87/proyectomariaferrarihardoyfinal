@@ -1,0 +1,27 @@
+@import "../base/listas";
+@import "../base/extends";
+@import "../base/variables";
+@import "../base/mixins";
+
+ .container-footer {
+ @extend %flexend;
+ align-items: flex-start;
+ @include widhtmargin (19.7%, 2px);
+ margin-top:2px ;
+} 
+   .copy{
+    margin-top: 2.6px;
+    font-size: 0.8em;
+ // background-color:rgba(222, 222, 222, 0.327) ;
+    @include paddingyradius ( 4px, 15px)
+}
+     .container-item-footer {
+      margin: 2px 15px 0 2px; 
+}
+       .img-wp, .img-ig, .img-mail{ 
+        background: $bc-header-gradiant;
+        @include widhtmargin (25px, 1px);
+        @include paddingyradius ( 5px, 20px);
+        margin-bottom: 10px;
+} 
+    

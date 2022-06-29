@@ -1,0 +1,31 @@
+%sticky50 {
+    position: sticky;
+    top:50px;
+}
+
+%sticky40 {
+    position: sticky;
+    top:40px;
+}
+
+%sticky30 {
+    position: sticky;
+    top:30px;
+}
+
+
+%flexcenterxy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flexend {
+    display: flex;
+    justify-content: flex-end
+}
+
+%flexstart {
+    display: flex;
+    justify-content: flex-start;
+}

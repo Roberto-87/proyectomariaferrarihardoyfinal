@@ -1,0 +1,19 @@
+.container-contacto {
+    margin-top: 5%;
+    width: 100%;
+  }    .container-contacto2 {
+        transition: all 2s;
+        width: 50%;
+        background-color: map-get($map:$colores, $key:"gris1");
+        border-radius: 15px;
+        @extend %flexcenterxy;
+        margin-top: 0px !important;
+        &:hover {
+       transform: translatey(-10%);
+        }
+  } .contenedor-name {
+      margin-bottom: -1em !important;
+
+  } .contenedor-mail {
+      margin-bottom: -1em !important;
+  }

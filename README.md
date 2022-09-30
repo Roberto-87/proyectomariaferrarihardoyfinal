@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Roberto Ochoa</h1>
 <h3 align="center">A passionate developer from Argentina</h3>
 
-- 🔭 I’m currently working on [Maria Ferrari Hardoy - Visual Artist](https://mfhardoy.000webhostapp.com/index.html)
+- 🔭 I’m currently working on [Maria Ferrari Hardoy - Visual Artist]
 
 - 📫 How to reach me **robertoochoa.dev@gmail.com**
 
